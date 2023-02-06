@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Glasses.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout>
+
+            <Grid WidthRequest="380">
+                <Label Text="Connection:" FontSize="18" Margin="0,0,0,0"/>
+
+                <Label Text="connected" TextColor="Lime" Margin="105,0,0,0" FontSize="18" x:Name="con"/>
+            </Grid>
+            
+            <Label Text="Mayday" HorizontalOptions="Center" Margin="0,20,0,0" FontSize="28"/>
+
+            <Picker x:Name="Languages" VerticalOptions="Center" Margin="0,50,0,0"/>
+
+            <Label Text="{Binding RecognitionText}" HorizontalOptions="Center" VerticalOptions="Center" FontSize="18" x:Name="ITextToSpeech" Margin="0,50,0,0"/>
+
+            <Label x:Name="label1" Text="Weather" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,0"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

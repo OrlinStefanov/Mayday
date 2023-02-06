@@ -1,0 +1,1 @@
+D:\Orlin programs\Maui C#\Glasses\Glasses.csproj;x64
